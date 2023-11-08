@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(225, 225, 225)
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    display: inline;
+    font-size: 20px
+}
+
+div{
+    margin:0 auto;
+
+    
+}
+
+.container{
+    width:800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+
+}
+
+label[for="radio"], label[for="mezo"]{
+    display: block;
+}
+
+input[type="text"]{
+    display: inline;
+}
+
+.mezok{
+    border: 0;
+    margin: 0 auto;
+    display: inline;
+}
+
+#szuldatum{
+    margin: ;
+}
+

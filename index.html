@@ -5,39 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Regisztráció</title>
-
-    <style>
-        body{
-            background-color: rgb(240, 240, 240)
-        }
-
-        input[type="text"], input[type="email"], input[type="password"]{
-            display: inline;
-            font-size: 20px
-        }
-
-        div{
-            margin: 10px
-        }
-
-        .container{
-            width:600px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-
-        }
-
-        label[for="radio"], label[for="mezo"]{
-            display: block;
-        }
-
-        input[type="text"]{
-            display: inline;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -46,6 +14,7 @@
                     <h1>Regisztráció</h1>
             
                     <div>
+                        
                             <label for="radio">Megszólítás <span class="req">*</span> </label>
             
                             <input type="radio" name="Nem" id="nem1">
@@ -53,44 +22,49 @@
                     
                             <input type="radio" name="Nem" id="nem2">
                             <label for="nem1">Úr</label>
-                    
+                       
                     </div>
             
             
                     <div>
-                        <div>
-                                <label for="mezo">Vezetéknév<span>*</span></label>
-                                <input type="text" name="mezo" id="veznev">
-    
-                        </div>
-                    
+                        <fieldset class="mezok">
+                            <label for="mezo">Vezetéknév<span>*</span></label>
+                            <input type="text" name="mezo" id="veznev">
+                        </fieldset>
+                        <fieldset class="mezok">
                             <label for="mezo"> Keresztnév<span>*</span></label>
                             <input type="text" name="mezo" id="kernev">
-                    
+                        </fieldset>
                     </div>
             
                     <div>
-                            <label for="datum">Születési dátum<span>*</span></label>
+                        <fieldset class="mezok">
+                            <label for="mezo">Születési dátum<span>*</span></label>
                             <input type="date" name="mezo" id="szuldatum">
-                    
+                        </fieldset>
                     </div>
 
                     <div>
+                        <fieldset class="mezok">
                             <label for="mezo">E-mail cím<span>*</span></label>
                             <input type="email" name="mezo" id="email">
-                    
+                        </fieldset>
+                        <fieldset class="mezok">
                             <label for="mezo">E-mail cím ismételt megadása<span>*</span></label>
                             <input type="email" name="mezo" id="emailism">
-                    
+                        </fieldset>
                     </div>
 
                     
                     <div>
+                        <fieldset class="mezok">
                             <label for="mezo">Jelszó<span>*</span></label>
                             <input type="password" name="mezo" id="email">
-                    
+                        </fieldset>
+                        <fieldset class="mezok">
                             <label for="mezo">Jelszó ismételt megadása<span>*</span></label>
                             <input type="password" name="mezo" id="emailism">
+                        </fieldset>
                     
                     </div>
 
