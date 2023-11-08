@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Regisztráció</title>
+
+    <style>
+        body{
+            background-color: rgb(240, 240, 240)
+        }
+
+        input[type="text"], input[type="email"], input[type="password"]{
+            display: inline;
+            font-size: 20px
+        }
+
+        div{
+            margin: 10px
+        }
+
+        .container{
+            width:600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+
+        }
+
+        label[for="radio"], label[for="mezo"]{
+            display: block;
+        }
+
+        input[type="text"]{
+            display: inline;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+            <form action="index.html">
+                    <h1>Regisztráció</h1>
+            
+                    <div>
+                            <label for="radio">Megszólítás <span class="req">*</span> </label>
+            
+                            <input type="radio" name="Nem" id="nem1">
+                            <label for="nem1">Úrhölgy</label>
+                    
+                            <input type="radio" name="Nem" id="nem2">
+                            <label for="nem1">Úr</label>
+                    
+                    </div>
+            
+            
+                    <div>
+                        <div>
+                                <label for="mezo">Vezetéknév<span>*</span></label>
+                                <input type="text" name="mezo" id="veznev">
+    
+                        </div>
+                    
+                            <label for="mezo"> Keresztnév<span>*</span></label>
+                            <input type="text" name="mezo" id="kernev">
+                    
+                    </div>
+            
+                    <div>
+                            <label for="datum">Születési dátum<span>*</span></label>
+                            <input type="date" name="mezo" id="szuldatum">
+                    
+                    </div>
+
+                    <div>
+                            <label for="mezo">E-mail cím<span>*</span></label>
+                            <input type="email" name="mezo" id="email">
+                    
+                            <label for="mezo">E-mail cím ismételt megadása<span>*</span></label>
+                            <input type="email" name="mezo" id="emailism">
+                    
+                    </div>
+
+                    
+                    <div>
+                            <label for="mezo">Jelszó<span>*</span></label>
+                            <input type="password" name="mezo" id="email">
+                    
+                            <label for="mezo">Jelszó ismételt megadása<span>*</span></label>
+                            <input type="password" name="mezo" id="emailism">
+                    
+                    </div>
+
+
+
+            
+            
+                </form>
+            
+    </div>
+</body>
+</html>
