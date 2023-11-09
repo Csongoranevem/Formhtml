@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container">
+        <div class="alingcenter">
             <form action="index.html">
                     <h1>Regisztráció</h1>
             
@@ -39,9 +40,14 @@
             
                     <div>
                         <fieldset class="mezok">
-                            <label for="mezo">Születési dátum<span>*</span></label>
-                            <input type="date" name="mezo" id="szuldatum">
+                            <label for="mezo">Születési dátum</label>
+                            <input placeholder="ÉÉÉÉ" type="number" name="mezo" id="szulhonap" min="1900">
+                            <input placeholder="HH" type="number" name="mezo" id="szulev" min="1" max="12">
+                            <input placeholder="NN" type="number" name="mezo" id="szulnap" min="1" max="31">
+
+
                         </fieldset>
+
                     </div>
 
                     <div>
@@ -73,7 +79,7 @@
             
             
                 </form>
-            
+            </div>
     </div>
 </body>
 </html>

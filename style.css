@@ -36,7 +36,20 @@ input[type="text"]{
     display: inline;
 }
 
-#szuldatum{
-
+#szulev, #szulhonap, #szulnap{
+    width: 60px;
+    height: 30px;
+    margin: 5px;
 }
+
+
+@media screen and (max-width: 600px){
+    .mezok{
+        display: block;
+
+    }
+    
+}
+
+
 
